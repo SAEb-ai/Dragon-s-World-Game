@@ -10,16 +10,32 @@ body{
 /*Styling of the Game's Name*/
 #gameName{
     position: absolute;
-    top:30vh;
-    left:38vw;
+    left: 24vw;
+    background-color: white;
+    font-weight: bold;
+    font-size: 4rem;
+
 }
 /*Background image styling*/
 .container{
-    background-image: url(cover.png);
+    background-image: url(./images/cover.png);
     background-size:cover;
     width:100vw;
     height:100vh;
 }
+
+.design {
+    position:absolute;
+    top: 109px;
+    right: 57px;
+
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
 /*ScoreCard Styling*/
 #scorecount{
     position:absolute;
@@ -32,10 +48,10 @@ body{
 }
 /*Obstacle image styling and postioning*/
 .obstacle{
-    background-image: url(obstacle.png);
+    background-image: url(./images/obstacle.png);
     background-size: cover;
     width:154px;
-    height: 126px;
+    height: 117px;
     position:absolute;
     bottom:0px;
     right:120px;
@@ -54,10 +70,10 @@ body{
 }
 /*Dragon's styling*/
 .dragon{
-    background-image: url(dragon.png);
+    background-image: url(./images/dragon.png);
     background-size: cover;
     width: 194px;
-    height: 126px;
+    height: 101px;
     position:absolute;
     bottom:0px;
     left:90px;
